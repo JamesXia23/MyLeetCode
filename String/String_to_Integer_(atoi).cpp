@@ -62,5 +62,8 @@ If no valid conversion could be performed, a zero value is returned. If the corr
 range of representable values, INT_MAX (2147483647) or INT_MIN (-2147483648) is returned.
 
 实现atoi函数
-
+注意三点:
+	1.去掉前缀空格
+	2.正负号判断
+	3.溢出判断(大于2147483647的,都为2147483647,小于-2147483648的,都为-2147483648)
 */
